@@ -1,0 +1,16 @@
+[package]
+name = "ft_linear_regression"
+version = "0.1.0"
+authors = ["aputman <aputman@student.42.fr>"]
+edition = "2018"
+
+[[bin]]
+name="learn"
+path="src/learn.rs"
+
+[[bin]]
+name="predict"
+path="src/predict.rs"
+
+[profile.release]
+lto="thin"
